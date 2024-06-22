@@ -106,4 +106,12 @@ body {
         width: 80%;
         /* margin-inline: 20px; */
     }
+    .card:hover{
+        /* transform: scale(1.1); */
+        box-shadow: 10px 10px black;
+    }
+    .card h2:hover{
+        color: var(--font-color);
+        transform: scale(1);
+    }
 }
